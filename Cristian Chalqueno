@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Música</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f4ec;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #b08d57;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 30px 0;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #b08d57;
+            text-transform: uppercase;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+        .vintage-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #b08d57;
+            color: white;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        .vintage-button:hover {
+            background-color: #8a6c42;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Música</h1>
+    </header>
+    <nav>
+        <a href="#musica">Escuchar Música</a>
+        <a href="#conciertos">Entradas a Conciertos</a>
+        <a href="#discos">Comprar Discos</a>
+    </nav>
+    <div class="container">
+        <section id="musica" class="section">
+            <h2>Escuchar Música</h2>
+            <p>Explora mis últimas creaciones y disfruta de mi música en línea.</p>
+            <a href="#" class="vintage-button">Escuchar Ahora</a>
+        </section>
+
+        <section id="conciertos" class="section">
+            <h2>Entradas a Conciertos</h2>
+            <p>¡No te pierdas mis próximos conciertos! Compra tus entradas aquí.</p>
+            <a href="#" class="vintage-button">Comprar Entradas</a>
+        </section>
+
+        <section id="discos" class="section">
+            <h2>Comprar Discos</h2>
+            <p>Adquiere mis discos más recientes y completa tu colección.</p>
+            <a href="#" class="vintage-button">Comprar Discos</a>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Mi Música. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
